@@ -1,4 +1,4 @@
-baseURL = "https://www.example.com"
+baseURL = "https://mehdi.carthages.org/"
 languageCode = "en-us"
 title = "My Cyber Garden"
 theme = "hugo-digital-garden-theme"
