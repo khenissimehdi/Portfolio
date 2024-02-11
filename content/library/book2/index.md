@@ -21,5 +21,5 @@ Key highlights of the book include:
 "Ghost in the Wires" is not just a tale of hacking adventures; it's a window into the mind of one of the most celebrated figures in the history of cybersecurity. Mitnick's story is a compelling narrative that offers insights into the early days of hacking culture, the complexities of the human element in security, and the fine line between criminality and curiosity in the digital age.
 
 <div style="text-align: center;">
-  {{< figure src="https://images.unsplash.com/photo-1707593655398-a9eb0f94ffe9?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="60%"  >}}
+  {{< figure src="mitnick.webp" width="60%"  >}}
 </div>
