@@ -1,3 +1,6 @@
 [submodule "themes/hugo-digital-garden-theme"]
 	path = themes/hugo-digital-garden-theme
 	url = https://github.com/paulmartins/hugo-digital-garden-theme.git
+[submodule "hugo-digital-garden-theme"]
+	path = hugo-digital-garden-theme
+	url = https://github.com/paulmartins/hugo-digital-garden-theme.git
