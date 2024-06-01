@@ -10,7 +10,7 @@ weight: 1
 
 ### Enhancing Rapid Risk Assessment with a Notion Template
 
-The need for effective risk management tools is essential in today's fast-paced digital world. Mozilla's Rapid Risk Assessment (RRA) method is a robust framework designed to evaluate risks swiftly. While the existing Google Docs version is functional, it lacks the flexibility and automation potential that many users require. To address these limitations, I have created a Notion template that enhances the original RRA method, making it more adaptable and user-friendly.
+The need for effective risk management tools is essential in today's fast-paced digital world. Mozilla's  [Rapid Risk Assessment (RRA)](https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html) method is a robust framework designed to evaluate risks swiftly. While the existing Google Docs version is functional, it lacks the flexibility and automation potential that many users require. To address these limitations, I have created a Notion template that enhances the original RRA method, making it more adaptable and user-friendly.
 
 #### Why Notion?
 
