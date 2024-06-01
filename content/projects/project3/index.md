@@ -28,30 +28,48 @@ Notion is a versatile productivity tool that allows for extensive customization,
 4. **Collaboration Tools**: Comment, assign tasks, and track changes in real-time, enhancing team collaboration and accountability.
 
 ### How to Use the Notion Template
+{{< figure src="image-5.png" width="100%" >}}
 
-#### Step 1: Setup the Template
-- **Import the Template**: Import the Notion template into your workspace.
-- **Customize Fields**: Tailor the database fields to match your specific risk assessment criteria.
+After finishing importing the tempalte and clickong on new iterm in your notion workspace you should be set to go but i explain this further and ofr that nothing better then an example in this case so lets go To fill out the Rapid Risk Assessment (RRA) template for a Company Blog, follow this example guide: 
 
-#### Step 2: Enter Risks
-- **Add Risk Items**: Input each identified risk as a new database entry.
-- **Detail Information**: Fill in details such as risk description, potential impact, likelihood, and mitigation strategies.
+### Metadata
+- **Service Owner(s):** Alex Johnson, Marketing Manager
+- **Owner’s Director:** Emily Roberts, VP of Marketing
+- **Service Data Classification:** PUBLIC
+- **Highest Risk Impact:** MEDIUM
 
-#### Step 3: Automate Scoring
-- **Set Up Formulas**: Use Notion's formula feature to calculate risk scores based on your predefined criteria.
-- **Automate Updates**: Set up relations and roll-ups to automatically update related fields and dashboards.
+{{< figure src="image.png" width="100%" >}}
 
-#### Step 4: Visualize and Collaborate
-- **Create Dashboards**: Build dashboards that provide real-time insights into the risk assessment process.
-- **Collaborate**: Assign tasks, comment, and track progress within the template to ensure effective team collaboration.
+### Service Notes
+- **Description:** A public-facing blog showcasing company news, industry insights, and thought leadership articles. Accessible by anyone on the internet.
+- **Data Flow:** Blog posts are written by employees, reviewed by editors, and published online. Users can leave comments.
+{{< figure src="image-1.png" width="100%" >}}
 
-### Suggested Images
+### Data Dictionary
+- **Data Types:**
+  - Blog content (PUBLIC)
+  - User comments (PUBLIC)
+  - Employee information (INTERNAL)
+{{< figure src="image-2.png" width="100%" >}}
 
-1. **Template Overview**: A screenshot of the Notion template's main page, showing the layout and key sections.
-2. **Dynamic Risk Entry**: A close-up view of a sample risk entry, highlighting the detailed fields and information.
-3. **Automated Scoring**: An image demonstrating the formula setup for automated risk scoring.
-4. **Visual Dashboard**: A screenshot of a visual dashboard created within Notion, displaying risk levels and statuses.
-5. **Collaboration Tools**: An illustration of the collaboration features, such as comments and task assignments.
+### Threat Scenarios
+- **Confidentiality:** If internal drafts are leaked before publication, it may lead to competitive disadvantages.
+  - **Impact:** LOW
+- **Integrity:** Unauthorized modifications of blog content could misrepresent the company’s views or spread misinformation.
+  - **Impact:** MEDIUM
+- **Availability:** If the blog is down, it impacts the company’s online presence and engagement.
+  - **Impact:** LOW
+{{< figure src="image-3.png" width="100%" >}}
+
+### Recommendations
+- **Access Controls:** Implement role-based access control for content management.
+- **Regular Backups:** Schedule regular backups to prevent data loss.
+- **Monitoring and Alerts:** Set up monitoring and alert systems for unauthorized access or changes.
+{{< figure src="image-4.png" width="100%" >}}
+
+
+## Follow the risks
+After a risk assesment is done it is crucial to follow them diligently to identify, prioritize, and mitigate potential threats effectively. This mean that identified risks need to be managed proactively, minimizing their impact on the company. Regular monitoring and updating of the risk assessment help maintain the security and integrity.
 
 ### Conclusion
 
