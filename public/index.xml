@@ -10,18 +10,18 @@
     <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rapid Risk Assessment with a Notion Template</title>
+      <title>Revamp Your Rapid Risk Assessment with a Notion Template</title>
       <link>http://localhost:1313/projects/project3/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/project3/</guid>
-      <description>Rapid Risk Assessment with a Notion Template</description>
+      <description>Mehdi Khenissi</description>
     </item>
     <item>
       <title>Pritunl VPN GCP</title>
       <link>http://localhost:1313/projects/project2/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/project2/</guid>
-      <description>Details on how to host pritunl vpn on gpc</description>
+      <description>Mehdi Khenissi</description>
     </item>
     <item>
       <title>Ghost in the wires</title>
