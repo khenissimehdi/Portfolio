@@ -4,7 +4,7 @@ date: 2024-02-11
 draft: false
 project_tags: ["vpn", "how-to"]
 status: "seeding"
-summary: "Details on how to host pritunl vpn on gpc"
+summary: "Mehdi Khenissi"
 weight: 1
 ---
 
