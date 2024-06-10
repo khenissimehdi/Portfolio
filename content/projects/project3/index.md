@@ -107,7 +107,7 @@ Here you will try to find solutions that you can implement to responde to risks 
 
 After completing a risk assessment, it’s crucial to follow up diligently to identify, prioritize, and mitigate potential threats effectively. Proactive risk management minimizes the impact on the company. Regular monitoring and updating of the risk assessment help maintain security and integrity. It’s like flossing your teeth—easy to skip but super important!
 
-### How to Add the Template to your notion workspace
+### How to Add the Template
 
 Easy, go to the following [Notion page](https://www.notion.so/templates/rapid-risk-assesment) and click add template.
 
