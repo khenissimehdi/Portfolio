@@ -8,13 +8,34 @@ summary: "Mehdi Khenissi"
 weight: 1
 ---
 
+### Table of Contents
+
+1. [Enhance Your Rapid Risk Assessment with a Notion Template](#enhance-your-rapid-risk-assessment-with-a-notion-template)
+2. [Why Notion?](#why-notion)
+3. [Key Features of the Notion Template](#key-features-of-the-notion-template)
+    - [Dynamic Risk Entries](#dynamic-risk-entries)
+    - [Automated Scoring](#automated-scoring)
+    - [Visual Dashboards](#visual-dashboards)
+    - [Collaboration Tools](#collaboration-tools)
+4. [How to Use the Notion Template](#how-to-use-the-notion-template)
+5. [Metadata](#metadata)
+6. [Service Notes](#service-notes)
+7. [Data Dictionary](#data-dictionary)
+8. [Threat Scenarios](#threat-scenarios)
+9. [Recommendations](#recommendations)
+10. [Follow the Risks](#follow-the-risks)
+11. [How to Add the Template](#how-to-add-the-template)
+12. [Conclusion](#conclusion)
+
+---
+
 ### Enhance Your Rapid Risk Assessment with a Notion Template
 
 In today's fast-paced digital landscape, effective risk management tools are essential. Mozilla's [Rapid Risk Assessment (RRA)](https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html) method is a robust framework for swiftly evaluating risks. While the current Google Docs version is functional, it lacks the flexibility and automation potential that modern users need. To address these limitations, I’ve created a Notion template that enhances the RRA method, making it more adaptable and user-friendly. 
 
-And trust me, you won't want to miss out on this upgrade. It's like swapping your flip phone for a smartphone—sure, the old one worked, but this is way cooler!
+And trust me, you won't want to miss out on this upgrade. It's like swapping your flip phone for a smartphone—sure, the old one worked, but this is way cooler! 
 
-#### Why Notion?
+### Why Notion?
 
 Notion is like the Swiss Army knife of productivity tools—it's got everything you need and a few things you didn’t even know you wanted. By transferring Mozilla's RRA framework to Notion, you can:
 
@@ -34,7 +55,7 @@ Notion is like the Swiss Army knife of productivity tools—it's got everything 
 
 Once you’ve imported the template and created a new item in your Notion workspace, you’re ready to go. It’s as simple as setting up a new social media account but way more productive. Let’s dive in with a practical example to fill out the Rapid Risk Assessment (RRA) template for a company blog:
 
-### Metadata
+#### Metadata
 
 The Metadata section sets the basic information about the risk assessment and identifies the people involved. This helps prioritize and classify the risk assessment. Think of it as the "about us" page for your risk assessment.
 
@@ -76,15 +97,19 @@ Consider confidentiality, integrity, and availability by imagining data disclosu
 {{< figure src="image-3.png" width="100%" >}}
 
 ### Recommendations
-
+Here you will try to find solutions that you can implement to responde to risks about the project
 - **Access Controls:** Implement role-based access control for content management.
 - **Regular Backups:** Schedule regular backups to prevent data loss.
 - **Monitoring and Alerts:** Set up monitoring and alert systems for unauthorized access or changes. Because getting blindsided by a risk is the worst kind of surprise party.
 {{< figure src="image-4.png" width="100%" >}}
 
-## Follow the Risks
+### Follow the Risks
 
 After completing a risk assessment, it’s crucial to follow up diligently to identify, prioritize, and mitigate potential threats effectively. Proactive risk management minimizes the impact on the company. Regular monitoring and updating of the risk assessment help maintain security and integrity. It’s like flossing your teeth—easy to skip but super important!
+
+### How to Add the Template to your notion workspace
+
+Easy, go to the following [Notion page](https://www.notion.so/templates/rapid-risk-assesment) and click add template.
 
 ### Conclusion
 
