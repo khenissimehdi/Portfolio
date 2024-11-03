@@ -7,11 +7,13 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="/css/default.css" type="text/css" />
+  
     <meta name="twitter:title" content="{{ .Site.Params.twitter_title }}" />
     <meta name="twitter:image" content="{{ .Site.Params.twitter_image }}" />
     <meta name="twitter:description" content="{{ .Site.Params.twitter_description }}" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="{{ .Site.Params.twitter_site }}" />
+  
     <meta property="og:title" content="{{ .Site.Params.og_title }}" />
     <meta property="og:image" content="{{ .Site.Params.og_image }}" />
     <meta property="og:description" content="{{ .Site.Params.og_description }}" />
@@ -63,12 +65,28 @@
   </header>
     <!-- Code that all your templates share, like a header -->
     {{ block "main" . }}
+    <h1 class="post-title">
+      {{ .Title }}
+    </h1>
+  
+    <section class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}">
+        <h2 class="title">{{ .Title }}</h2>
+        <p class="excerpt">
+          {{ .Summary }}
+        </p>
+        <p class="bold underline">Read this →</p>
+      </a>
+      {{ end }}
+  </section>
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
     {{ block "footer" . }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{ end }}
   </body>
+
   <!--
   <div class="newsletter-container">
     <h2>
