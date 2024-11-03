@@ -1,10 +1,8 @@
 +++
-title = 'Hey, I’m Mehdi,👋 But my friends call me MK.'
+title = 'Hey, I’m Mehdi,👋 But my friends call me the Security Guy.'
 date = 2024-08-25T16:25:41+02:00
 draft = false
 +++
-
-
 
 Currently working as a Cybersecurity Engineer at [Fairly Made](https://www.fairlymade.com/) 🌱, ensuring brands improve their environmental impact securely.
 
