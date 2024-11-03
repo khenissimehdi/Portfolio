@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/blog/cybereng/</loc>
-    <lastmod>2024-08-25T17:02:36+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/failed/</loc>
-    <lastmod>2024-08-25T16:26:07+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/now/</loc>
-    <lastmod>2024-08-25T16:25:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-25T16:25:41+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-08-25T16:25:41+02:00</lastmod>
-  </url>
+  
 </urlset>
