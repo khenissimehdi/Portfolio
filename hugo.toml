@@ -1,4 +1,4 @@
-baseURL = 'https://mehdi.carthages.org/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 summaryLength = 4
