@@ -10,7 +10,7 @@ Currently working as a Cybersecurity Engineer at [Fairly Made](https://www.fairl
 
 Empowering sustainable fashion with strong digital protection!✨
 
-You can about what I’m up to here: [/Now]({{< relURL | "now/" >}})
+You can about what I’m up to here: [/Now]({{< ref "/now" >}}    )
 ***
 
 Previously worked as a Full Stack and iOS Developer at [Whoomies](https://immo2.pro/annuaire/prestataire/startups/whoomies/), building tech to help people find their perfect roommate match 🏠🤝.
