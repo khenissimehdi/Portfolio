@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2024 17:02:36 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security engineering ?</title>
+      <link>http://localhost:1313/blog/cybereng/</link>
+      <pubDate>Sun, 25 Aug 2024 17:02:36 +0200</pubDate>
+      <guid>http://localhost:1313/blog/cybereng/</guid>
+      <description>The title of cybersecurity engineer has always intrigued me because it holds different meanings depending on where you work.</description>
+    </item>
+    <item>
+      <title>Failed Projects</title>
+      <link>http://localhost:1313/failed/</link>
+      <pubDate>Sun, 25 Aug 2024 16:26:07 +0200</pubDate>
+      <guid>http://localhost:1313/failed/</guid>
+      <description>I dislike when websites or bios only show highlights.</description>
+    </item>
+    <item>
+      <title>What I’m doing Now</title>
+      <link>http://localhost:1313/now/</link>
+      <pubDate>Sun, 25 Aug 2024 16:25:56 +0200</pubDate>
+      <guid>http://localhost:1313/now/</guid>
+      <description>Here is what im currently working on.</description>
+    </item>
+  </channel>
+</rss>

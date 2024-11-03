@@ -1,7 +1,7 @@
 +++
 title = 'Failed Projects'
 date = 2024-08-25T16:26:07+02:00
-draft = true
+draft = false
 +++
 I dislike when websites or bios only show highlights. It’s easy to think someone’s success is effortless, but there are always past failures hidden away.
 

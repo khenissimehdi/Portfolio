@@ -1,7 +1,7 @@
 +++
 title = 'What I’m doing Now'
 date = 2024-08-25T16:25:56+02:00
-draft = true
+draft = false
 +++
 
 Here is what im currently  working on.

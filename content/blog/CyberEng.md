@@ -1,7 +1,7 @@
 +++
 title = 'Security engineering ?'
 date = 2024-08-25T17:02:36+02:00
-draft = true
+draft = false
 +++
 
 The title of cybersecurity engineer has always intrigued me because it holds different meanings depending on where you work. In one company, you might be configuring firewalls, while in another, you could be handling GRC (Governance, Risk, and Compliance). However, for [Ross Anderson](https://en.wikipedia.org/wiki/Ross_J._Anderson):
