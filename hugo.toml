@@ -1,8 +1,9 @@
-baseURL = '/'
+baseURL = 'https://mehdi.carthages.org'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 summaryLength = 4
 disableKinds = ["taxonomy"]
+canonifyURLs: false
 
 [params]
 nowPage = "now"
