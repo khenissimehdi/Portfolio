@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{{ .Site.Params.title }}</title>
+    <meta name="author" content="{{ .Site.Params.author }}">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/css/default.css" type="text/css" />
+  
+    <meta name="twitter:title" content="{{ .Site.Params.twitter_title }}" />
+    <meta name="twitter:image" content="{{ .Site.Params.twitter_image }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.twitter_description }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="{{ .Site.Params.twitter_site }}" />
+  
+    <meta property="og:title" content="{{ .Site.Params.og_title }}" />
+    <meta property="og:image" content="{{ .Site.Params.og_image }}" />
+    <meta property="og:description" content="{{ .Site.Params.og_description }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ .Site.Params.og_site_name }}" />
+  </head>
+
+  <body>
+    <div class="flex-container">
+      <header>
+    <div class="main">
+      <a href="/" class="green-square"></a>
+      <a href="/" class="name">
+        {{ .Site.Params.initials }}
+      </a>
+      <p class="description">
+        I secure things. Mostly for computers &amp; people.
+      </p>
+    </div>
+    <ul>
+      <hr />
+   
+      <li>
+        <a href="{{ .Site.BaseURL }}{{ .Site.Params.nowPage }}">/Now</a>
+      </li>
+      <li>
+        <a href="{{ .Site.BaseURL }}{{ .Site.Params.failedPage }}">/Failed</a>
+      </li>
+      <li>
+        <a href="{{ .Site.BaseURL }}{{ .Site.Params.blogPage }}">/Blog</a>
+      </li>
+   
+      <hr />
+   
+      {{ range .Site.Params.externalLinks }}
+      <li>
+        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+      </li>
+      {{ end }}
+   
+      <hr />
+   
+      {{ range .Site.Params.socialLinks }}
+      <li>
+        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+      </li>
+      {{ end }}
+   </ul>
+  </header>
+    <!-- Code that all your templates share, like a header -->
+    {{ block "main" . }}
+    <h1 class="post-title">
+      {{ .Title }}
+    </h1>
+  
+    <section class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}">
+        <h2 class="title">{{ .Title }}</h2>
+        <p class="excerpt">
+          {{ .Summary }}
+        </p>
+        <p class="bold underline">Read this →</p>
+      </a>
+      {{ end }}
+  </section>
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+  </body>
+
+  <!--
+  <div class="newsletter-container">
+    <h2>
+      Want updates from me?
+    </h2>
+
+    <p>
+      A few times a year I email a short letter with some thoughts on tech, design, startups, games, and more. The letters will also include links to my latest blog posts, in case you miss them.
+    </p>
+
+    <form action="" method="post" target="popupwindow" class="newsletter-signup" onsubmit="window.open('', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <input type="hidden" value="1" name="embed" />
+      <input type="email" placeholder="Your email address" name="email" id="tlemail" />
+      <input type="submit" value="Subscribe" />
+    </form>
+ 
+  </div>
+   -->
+</html>

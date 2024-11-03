@@ -1,55 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Cyber Garden</title>
+    <title>My New Hugo Site</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My Cyber Garden</description>
+    <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Mehdi Khenissi ©</copyright>
-    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2024 17:02:36 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Revamp Your Rapid Risk Assessment with a Notion Template</title>
-      <link>http://localhost:1313/projects/project3/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project3/</guid>
-      <description>Mehdi Khenissi</description>
+      <title>Security engineering ?</title>
+      <link>http://localhost:1313/blog/cybereng/</link>
+      <pubDate>Sun, 25 Aug 2024 17:02:36 +0200</pubDate>
+      <guid>http://localhost:1313/blog/cybereng/</guid>
+      <description>The title of cybersecurity engineer has always intrigued me because it holds different meanings depending on where you work.</description>
     </item>
     <item>
-      <title>Pritunl VPN GCP</title>
-      <link>http://localhost:1313/projects/project2/</link>
-      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project2/</guid>
-      <description>Mehdi Khenissi</description>
+      <title>Failed Projects</title>
+      <link>http://localhost:1313/failed/</link>
+      <pubDate>Sun, 25 Aug 2024 16:26:07 +0200</pubDate>
+      <guid>http://localhost:1313/failed/</guid>
+      <description>I dislike when websites or bios only show highlights.</description>
     </item>
     <item>
-      <title>Ghost in the wires</title>
-      <link>http://localhost:1313/library/book2/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/library/book2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The Role of a CISO</title>
-      <link>http://localhost:1313/library/book3/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/library/book3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Network Basics</title>
-      <link>http://localhost:1313/garden/network-basics-notes/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/garden/network-basics-notes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mehdi Khenissi</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Cybersecurity Engineer</description>
+      <title>What I’m doing Now</title>
+      <link>http://localhost:1313/now/</link>
+      <pubDate>Sun, 25 Aug 2024 16:25:56 +0200</pubDate>
+      <guid>http://localhost:1313/now/</guid>
+      <description>Here is what im currently working on.</description>
     </item>
   </channel>
 </rss>
