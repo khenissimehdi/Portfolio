@@ -13,7 +13,7 @@ Here is what im currently  working on.
 ## Secure password sharing on Slack
 Passwords are still the main line of defense against data breaches. In 2024, password managers help create unique passwords, but sharing them securely is still a hassle. When convenience wins, we turn to apps like Slack, risking exposure if a hacker breaks in.
 
-Enter [Hanno](https://tryhanno.com/): the Slack app that lets you share passwords securely and effortlessly. No more shortcuts, no more risks. Stay protected and efficient with [Hanno](https://tryhanno.com/).
+Enter Hanno: the Slack app that lets you share passwords securely and effortlessly. No more shortcuts, no more risks. Stay protected and efficient with Hanno.
 
 
 ---
