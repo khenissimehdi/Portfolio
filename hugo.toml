@@ -1,7 +1,12 @@
 baseURL = 'https://mehdi.carthages.org/'
 languageCode = 'en-us'
-summaryLength = 4
+summaryLength = 1
 disableKinds = ["taxonomy"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
 nowPage = "now"

@@ -4,7 +4,11 @@ date = 2024-08-25T17:02:36+02:00
 draft = false
 +++
 
-The title of cybersecurity engineer has always intrigued me because it holds different meanings depending on where you work. In one company, you might be configuring firewalls, while in another, you could be handling GRC (Governance, Risk, and Compliance). However, for [Ross Anderson](https://en.wikipedia.org/wiki/Ross_J._Anderson):
+The title of cybersecurity engineer has always intrigued me because it holds different meanings depending on where you work.
+
+In one company, you might be configuring firewalls, while in another, you could be handling GRC (Governance, Risk, and Compliance).
+
+ However, for [Ross Anderson](https://en.wikipedia.org/wiki/Ross_J._Anderson):
 
 "Security engineering is mainly about building systems that remain dependable in the face of malice, error, and mischance."
 
@@ -13,3 +17,5 @@ The cybersecurity landscape is continually evolving, marked by escalating threat
 In simpler terms, our role as cybersecurity engineers is to ensure that the environment we work in can function in the face of malicious attacks and is resistant to them. This means it’s not only about security-focused solutions like firewalls, EDRs (e.g., detecting malware on endpoints), and SIEMs (e.g., monitoring and analyzing security data) but also involves every action, resource, or asset that exists in that environment.
 
 For now we are still far from that but a big change is coming.
+
+<img src="/images/sec.png" alt="Description of Image">

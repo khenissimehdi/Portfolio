@@ -7,13 +7,11 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="/css/default.css" type="text/css" />
-  
     <meta name="twitter:title" content="{{ .Site.Params.twitter_title }}" />
     <meta name="twitter:image" content="{{ .Site.Params.twitter_image }}" />
     <meta name="twitter:description" content="{{ .Site.Params.twitter_description }}" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="{{ .Site.Params.twitter_site }}" />
-  
     <meta property="og:title" content="{{ .Site.Params.og_title }}" />
     <meta property="og:image" content="{{ .Site.Params.og_image }}" />
     <meta property="og:description" content="{{ .Site.Params.og_description }}" />
@@ -35,7 +33,6 @@
     </div>
     <ul>
       <hr />
-   
       <li>
         <a href="{{ .Site.BaseURL }}{{ .Site.Params.nowPage }}">/Now</a>
       </li>
@@ -45,17 +42,13 @@
       <li>
         <a href="{{ .Site.BaseURL }}{{ .Site.Params.blogPage }}">/Blog</a>
       </li>
-   
       <hr />
-   
       {{ range .Site.Params.externalLinks }}
       <li>
         <a href="{{ .url }}" target="_blank">{{ .name }}</a>
       </li>
       {{ end }}
-   
       <hr />
-   
       {{ range .Site.Params.socialLinks }}
       <li>
         <a href="{{ .url }}" target="_blank">{{ .name }}</a>
@@ -68,7 +61,6 @@
     <h1 class="post-title">
       {{ .Title }}
     </h1>
-  
     <section class="post-list">
       {{ range .Pages.ByDate.Reverse }}
       <a href="{{ .RelPermalink }}">
@@ -102,7 +94,6 @@
       <input type="email" placeholder="Your email address" name="email" id="tlemail" />
       <input type="submit" value="Subscribe" />
     </form>
- 
   </div>
    -->
 </html>
