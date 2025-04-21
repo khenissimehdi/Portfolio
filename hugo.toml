@@ -18,7 +18,7 @@ externalLinks = [
     { name = "LinkedIn", url = "https://www.linkedin.com/in/mehdi-khenissi-a88b54195" }
 ]
 socialLinks = [
-    { name = "@MehdiKhen", url = "https://x.com/mehdikhen" },
+    { name = "@Mago-barca", url = "https://mago-barca.bsky.social/" },
     { name = "mehdi.khenissi@proton.me", url = "mailto:mehdi.khenissi@proton.me?subject=👋 Hi MK...&body=Hey Mehdi! I clearly clicked this link from your website. I wanted to say hi because..." }
 ]
 
