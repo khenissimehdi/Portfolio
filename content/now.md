@@ -18,4 +18,4 @@ Enter Hanno: the Slack app that lets you share passwords securely and effortless
 
 ---
 ## Carthage Library
-Discover the untold stories of [Carthage](https://lib.carthages.org) through a curated collection of pictures, texts, and books. Dive into a rich tapestry of history and see Carthage in a way you’ve never experienced before.
+Discover the untold stories of [Carthage](https://lib.banicarthage.com/) through a curated collection of pictures, texts, and books. Dive into a rich tapestry of history and see Carthage in a way you’ve never experienced before.
