@@ -15,7 +15,7 @@ blogPage = "blog"
 favicon = false
 externalLinks = [
     { name = "RRA Notion", url = "https://www.notion.so/templates/rapid-risk-assesment" },
-    { name = "LinkedIn", url = "https://www.linkedin.com/in/%F0%9F%87%AB%F0%9F%87%B7-mehdi-khenissi-a88b54195/" }
+    { name = "LinkedIn", url = "https://www.linkedin.com/in/mehdi-khenissi-a88b54195" }
 ]
 socialLinks = [
     { name = "@MehdiKhen", url = "https://x.com/mehdikhen" },
