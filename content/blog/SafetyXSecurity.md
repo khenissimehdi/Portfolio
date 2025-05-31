@@ -12,19 +12,21 @@ Ensuring the reliability of such systems requires proven engineering methods  ap
 
 ## Eliminating Hazards
 
-The ideal cases, is to be able to eliminate hazards entirely through better design. For example, in a motor control circuit, a poorly designed switch setup could short the battery if it partially failscausing a fire. 
+The ideal cases, is to be able to eliminate hazards entirely through better design. For example, in a motor control circuit, a poorly designed switch setup could short the battery if it partially failscausing a fire.
 
 But by rearranging the circuit so that the switch controls the motor side instead of the battery side, any failure will only short the motor, which is much safer. This redesign prevents a hazardous outcome rather than just trying to manage it.
 
-*Insent Image here*
+<img src="/images/lamp.png" alt="Description of Image">
 
-In security engineering, OAuth 2.0 is of a framework designed to eliminate the hazards that comes from the need to share credentials with third-party applications to access a user’s resourceshosted on another service(like google drive).
+*Circuit example*
+
+In security engineering, OAuth 2.0 is of a framework designed to eliminate the hazards that comes from the need to share credentials with third-party applications to access user’s resources hosted on another service(like google drive).
 
 The is idea is that Instead of requiring the third party to handle or store the user's password, OAuth introduces an **authorization server** that issues **time-limited access tokens**.
 
 These tokens grant the third party specific, limited access on behalf of the user, thereby eliminating the need to share credentials and significantly reducing the risk associated with credential theft or misuse.
 
-Another to design out hazards is **STPA (Systems Theoretic Process Analysis)** Traditionally, when designing for safety, the approach is straightforward: "If component A might fail, we’ll add Control X to prevent it."
+Another way to design out hazards is **STPA (Systems Theoretic Process Analysis)** Traditionally, when designing for safety, the approach is straightforward: "If component A might fail, we’ll add Control X to prevent it."
 
 However, the STPA (Systems-Theoretic Process Analysis) method goes further. It assumes that even Control X might failor be delayed, incorrect, or completely missing. Instead of relying solely on the control working perfectly, STPA encourages designing with safety constraints, additional checks, and fallback mechanisms to ensure the system remains safe, even when controls don’t function as expected.
 
@@ -39,11 +41,15 @@ Each branch of the tree **represents a logical path** showing how **combinations
 
 Once the tree is complete, you can **identify targeted** controls to break those paths, **strengthen weak links**, and reduce the chance of a **cascading incident**.
 
-*Image here*
+<img src="/images/faulttree2.png" alt="Description of Image">
+
+*Fault tree example*
 
 In security engineering, **fault tree analysis** is adapted into **Attack trees** or **Threat trees** they are really good for Threat Hunting and Threat Modeling, these trees map out **how an attacker** could achieve a **specific malicious goal**, with each node representing a step or method of attack, in some tress you even have sub branches for the counter measures.
 
-*Image here*
+<img src="/images/attacktree.png" width="1500" height="600" alt="Description of Image">
+
+*Attack tree example*
 
 Despite the availability of various techniques, the approach to safety ultimately depends on the specific problem you're addressing and the environment in which it operates. In high-stakes settings, one effective method is **Failure Modes and Effects Analysis (FMEA)**.
 ## Failure Modes and Effects Analysis
@@ -73,3 +79,8 @@ Extending FMEA from safety to security: imagine you're driving home at nightyour
 Safety aims to prevent rare failures like one in a billion hours. But security asks: what if someone causes that failure on purpose? This is what Dr. Ross J. Anderson calls **Satan’s computer**.
 Next, we’ll explore how safety meets security and why threat modeling matters.
 
+
+### Sources
+- [Security engineering by Dr Ross Anderson](https://www.cl.cam.ac.uk/archive/rja14/book.html)
+- [Safeware: System Safety and Computers](http://sunnyday.mit.edu/book.html)
+- [MIT Partnership for Systems Approaches to Safety and Security (PSASS)](https://psas.scripts.mit.edu/home/)
