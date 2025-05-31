@@ -31,7 +31,7 @@ Another way to design out hazards is **STPA (Systems Theoretic Process Analysis)
 
 However, the STPA (Systems-Theoretic Process Analysis) method goes further. It assumes that even Control X might failor be delayed, incorrect, or completely missing. Instead of relying solely on the control working perfectly, STPA encourages designing with safety constraints, additional checks, and fallback mechanisms to ensure the system remains safe, even when controls don’t function as expected.
 
-To build even more resilient systems, we must also consider how failures can still occur despite these safeguards, this is where [**Fault Trees and Threat Trees**](/blog/Trees) comes in.
+To build even more resilient systems, we must also consider how failures can still occur despite these safeguards, this is where [**Fault Trees and Threat Trees**](/blog/trees) comes in.
 
 
 ### Sources
