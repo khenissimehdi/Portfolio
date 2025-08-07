@@ -7,7 +7,7 @@ draft = false
 
 Critical computer systems are those where failure must be either prevented entirely or tightly controlled. These systems support functions that are essential to **safety**, **business continuity**, **security**, or other high-impact domains.
 
-Ensuring the reliability of such systems requires proven engineering methods  approaches that are not just theoretical, but time-tested in real-world conditions. These methods follow a clear principle:
+Ensuring the reliability of such systems requires proven engineering methods approaches that are not just theoretical, but time-tested in real-world conditions. These methods follow a clear principle:
 
 **Safety is not added later  it is built in from the start and carried through the entire project.**
 
@@ -91,5 +91,3 @@ To build even more resilient systems, we must also consider how failures can sti
 - [Security engineering by Dr Ross Anderson](https://www.cl.cam.ac.uk/archive/rja14/book.html)
 - [Safeware: System Safety and Computers](http://sunnyday.mit.edu/book.html)
 - [MIT Partnership for Systems Approaches to Safety and Security (PSASS)](https://psas.scripts.mit.edu/home/)
-
-
